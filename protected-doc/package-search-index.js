@@ -1,0 +1,1 @@
+packageSearchIndex = [{"m":"TamagoshiFX","l":"exception"},{"m":"TamagoshiFX","l":"metier"},{"m":"TamagoshiFX","l":"metier.tamagoshi"},{"m":"TamagoshiFX","l":"presentation"},{"m":"TamagoshiFX","l":"presentation.dessin"},{"m":"TamagoshiFX","l":"util"}]

@@ -1,0 +1,61 @@
+
+
+EXCEPTION :
+Une exception spécialisé a été créée afin de vérifier, dans l'enchainement des étapes du TamaController, si l'on passait bien d'étape en étape dans le bon ordre
+
+JAVAFX :
+L'appli utilise JavaFX (11) afin de fonctionner, on compte 3 fenêtre
+    windowLaunch, pour lancer la partie en français ou en anglais
+    windowConfiguration afin de rajouter des Tamagoshi à la partie
+    windowGame ou se déroule la partie
+    ainsi qu'une Tamavatar qui est un panel afin de représenter le Tamagoshi visuellement
+
+COLLECTIONS :
+    Il n'aura pas tant fait usage que ça de collection plus complexe qu'une arrayList. L'occasion ne s'est pas présenté
+
+JAVADOC :
+    Création de package-info dans chaque package, ainsi que commentaire pour classe, attributs et méthode
+    Puis génération de la javadoc, fichier placé à la racine du projet
+
+LAMBDA EXPRESSION :
+    Le plus souvent utilisé dans TamaController afin de parcourir les Tamagoshi et les retirer de la liste avec ArrayList.removeIf()
+    Aussi utilisé dans un premier pour parcourir les Tamagoshi et activer / désactivé les boutons, puis la syntaxe remaining.forEach(Tamagoshi::disableEat) s'est imposé
+
+INTERNATIONALISATION :
+    La classe util > Myl18N permet de définir la région, puis d'appeler la méthode valueOf("key") afin de récupérer la chaine de caractère asocié à une clef
+
+MODULE :
+    Le fichier module-info.java permet d'importer les différentes dépendances
+    A noter également l'export de presentation auprès de javafx ou bien windowLaunch ne pourrait pas fonctionner
+
+
+LOGGING :
+    emploie de méthode tel que Logger.getLogger(TAG).fine(() -> "eat"); pour tracer le fonctionnement de l'application
+
+FICHIER JAR :
+    Génération du fichier en jar dans out > artifacts > TamagoshiFX_jar > TamagoshiFX.jar afin de pouvoir exporter l'application
+
+PROPERTIES :
+    La classe MyProperties permet de stocker les paires de clef valeur
+    Elle aura été employé pour stocker le choix de l'utilisateur en terme de langue, et récupéré immédiatement après pour configurer Myl18N
+
+AUTRE :
+    Redéfinition des méthodes toString
+    Comparaison des chaine de caractère avec equals()
+
+CE QU'IL MANQUE :
+    La génération avec jlink
+    des Hashmap
+
+
+
+
+
+
+RENDU :
+
+- Déposer sur Github
+- Décrire la mise en pratique des parties du cours + autre info dans le readme
+- Fichier zip de l'exécutable linux généré avec jlink
+- Envoi du mail
+
