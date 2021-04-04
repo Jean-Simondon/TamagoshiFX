@@ -1,5 +1,4 @@
 
-
 EXCEPTION :
 Une exception spécialisé a été créée afin de vérifier, dans l'enchainement des étapes du TamaController, si l'on passait bien d'étape en étape dans le bon ordre
 
@@ -28,7 +27,6 @@ MODULE :
     Le fichier module-info.java permet d'importer les différentes dépendances
     A noter également l'export de presentation auprès de javafx ou bien windowLaunch ne pourrait pas fonctionner
 
-
 LOGGING :
     emploie de méthode tel que Logger.getLogger(TAG).fine(() -> "eat"); pour tracer le fonctionnement de l'application
 
@@ -46,16 +44,3 @@ AUTRE :
 CE QU'IL MANQUE :
     La génération avec jlink
     des Hashmap
-
-
-
-
-
-
-RENDU :
-
-- Déposer sur Github
-- Décrire la mise en pratique des parties du cours + autre info dans le readme
-- Fichier zip de l'exécutable linux généré avec jlink
-- Envoi du mail
-
